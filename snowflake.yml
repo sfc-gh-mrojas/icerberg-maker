@@ -1,0 +1,8 @@
+definition_version: 1
+streamlit:
+  name: iceberg_maker
+  stage: iceberg_maker_stage
+  query_warehouse: xsmall_wh
+  main_file: streamlit_app.py
+  env_file: environment.yml
+
